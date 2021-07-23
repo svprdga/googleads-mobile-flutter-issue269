@@ -1,0 +1,24 @@
+name: googleads_mobile_flutter_issue269
+description: Flutter sample for googleads-mobile-flutter issue #269
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_mobile_ads: 0.13.2
+#    git:
+#      url: https://github.com/SuaMusica/googleads-mobile-flutter.git
+#      path: packages/google_mobile_ads
+#      ref: feature/suamusica
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
